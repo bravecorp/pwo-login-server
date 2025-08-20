@@ -1,0 +1,22 @@
+-- Connection Config
+host = "0.0.0.0"
+port = 7171
+
+-- MySQL
+mysqlHost = "host.docker.internal"
+mysqlUser = "root"
+mysqlPass = ""
+mysqlDatabase = "pwo"
+mysqlPort = 3306
+mysqlSock = ""
+
+-- Redis
+redisHost = "host.docker.internal"
+redisPort = 6379
+
+encryptionSalt = ""
+
+versionMin = 100
+versionStr = "1.0.0"
+
+motd = "Welcome to The Poke World!"

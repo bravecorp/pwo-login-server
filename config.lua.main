@@ -1,0 +1,22 @@
+-- Connection Config
+host = "127.0.0.1"
+port = 7171
+
+-- MySQL
+mysqlHost = "127.0.0.1"
+mysqlUser = "root"
+mysqlPass = ""
+mysqlDatabase = "pwo"
+mysqlPort = 3306
+mysqlSock = ""
+
+-- Redis
+redisHost = "127.0.0.1"
+redisPort = 6379
+
+encryptionSalt = ""
+
+versionMin = 100
+versionStr = "1.0.0"
+
+motd = "Welcome to The Poke World!"
