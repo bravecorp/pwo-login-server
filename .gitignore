@@ -25,7 +25,7 @@
 # Executables
 *.exe
 
-vc22
+vc22/bin
 vcpkg_installed
 .vs
 

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\core">
+      <UniqueIdentifier>{da8dad6b-433e-4b3e-905e-3fee02f5aed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\database">
+      <UniqueIdentifier>{cc69eaf5-6bba-48f2-afcf-8ae3c0ced532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\network">
+      <UniqueIdentifier>{4406e011-ace8-4be3-bbe5-0309c1d8e160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\redis">
+      <UniqueIdentifier>{fa3e11ac-d7f0-4e9b-ad45-68457872e8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\script">
+      <UniqueIdentifier>{454b2138-28d8-41b4-ae89-ebc613af4ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\utils">
+      <UniqueIdentifier>{e4c4955b-de31-45f8-815b-d1098e89650d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\core">
+      <UniqueIdentifier>{01f721d0-9e68-4850-ad5e-5efcfacbe546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\database">
+      <UniqueIdentifier>{2d8daae9-9d6f-45c7-a8fc-eee393b48623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\network">
+      <UniqueIdentifier>{ad436ab9-23d0-408c-af50-36f985370586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\utils">
+      <UniqueIdentifier>{c9de2f5c-7131-4d2f-93f2-a4bf4fd96789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\script">
+      <UniqueIdentifier>{09c6d945-cb7c-452f-a065-4d2b6d0b5f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\redis">
+      <UniqueIdentifier>{9ed1e3df-434a-432c-88d0-f572a41f376f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\logger.cpp">
+      <Filter>Arquivos de Origem\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\module.cpp">
+      <Filter>Arquivos de Origem\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\modulemanager.cpp">
+      <Filter>Arquivos de Origem\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\server.cpp">
+      <Filter>Arquivos de Origem\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\signals.cpp">
+      <Filter>Arquivos de Origem\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\tasks.cpp">
+      <Filter>Arquivos de Origem\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\database\database.cpp">
+      <Filter>Arquivos de Origem\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\database\dbresult.cpp">
+      <Filter>Arquivos de Origem\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\network\connection.cpp">
+      <Filter>Arquivos de Origem\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\network\connectionmanager.cpp">
+      <Filter>Arquivos de Origem\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\network\networkmessage.cpp">
+      <Filter>Arquivos de Origem\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\network\protocol.cpp">
+      <Filter>Arquivos de Origem\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\redis\pub.cpp">
+      <Filter>Arquivos de Origem\redis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\redis\redis.cpp">
+      <Filter>Arquivos de Origem\redis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\redis\sub.cpp">
+      <Filter>Arquivos de Origem\redis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\script\lua.cpp">
+      <Filter>Arquivos de Origem\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\rsa.cpp">
+      <Filter>Arquivos de Origem\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\tools.cpp">
+      <Filter>Arquivos de Origem\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\xtea.cpp">
+      <Filter>Arquivos de Origem\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\definitions.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\includes.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\log.h">
+      <Filter>Arquivos de Cabeçalho\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\logger.h">
+      <Filter>Arquivos de Cabeçalho\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\module.h">
+      <Filter>Arquivos de Cabeçalho\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\modulemanager.h">
+      <Filter>Arquivos de Cabeçalho\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\server.h">
+      <Filter>Arquivos de Cabeçalho\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\signals.h">
+      <Filter>Arquivos de Cabeçalho\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\tasks.h">
+      <Filter>Arquivos de Cabeçalho\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\core\threadholder.h">
+      <Filter>Arquivos de Cabeçalho\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\database\database.h">
+      <Filter>Arquivos de Cabeçalho\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\database\dbresult.h">
+      <Filter>Arquivos de Cabeçalho\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\connection.h">
+      <Filter>Arquivos de Cabeçalho\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\connectionmanager.h">
+      <Filter>Arquivos de Cabeçalho\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\networkmessage.h">
+      <Filter>Arquivos de Cabeçalho\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\outputmessage.h">
+      <Filter>Arquivos de Cabeçalho\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\protocol.h">
+      <Filter>Arquivos de Cabeçalho\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\xtea.h">
+      <Filter>Arquivos de Cabeçalho\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\types.h">
+      <Filter>Arquivos de Cabeçalho\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\rsa.h">
+      <Filter>Arquivos de Cabeçalho\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\tools.h">
+      <Filter>Arquivos de Cabeçalho\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\script\lua.h">
+      <Filter>Arquivos de Cabeçalho\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\redis\pub.h">
+      <Filter>Arquivos de Cabeçalho\redis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\redis\redis.h">
+      <Filter>Arquivos de Cabeçalho\redis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\redis\sub.h">
+      <Filter>Arquivos de Cabeçalho\redis</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
