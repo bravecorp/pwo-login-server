@@ -1,0 +1,12 @@
+services:
+  pwo-loginserver:
+    build: .
+    container_name: pwo-loginserver
+    ports:
+      - "${LOGIN_PORT}:${LOGIN_PORT}"
+    networks:
+      - pwo-net
+
+networks:
+  pwo-net:
+    external: true

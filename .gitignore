@@ -28,6 +28,7 @@
 vc22/bin
 vcpkg_installed
 .vs
+.env
 
 config.lua
 config.lua.docker
